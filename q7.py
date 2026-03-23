@@ -1,0 +1,11 @@
+
+int_input = int(input("Enter an integer: "))
+print(f"Datatype of {int_input} is: {type(int_input)}")
+str_input = input("Enter a string: ")
+print(f"Datatype of '{str_input}' is: {type(str_input)}")
+float_input = float(input("Enter a float: "))
+print(f"Datatype of {float_input} is: {type(float_input)}")
+bool_input = bool(input("Enter a boolean (True or False): ").strip().lower() == 'true')
+print(f"Datatype of {bool_input} is: {type(bool_input)}")
+complex_input = complex(input("Enter a complex number (e.g., 1+2j): "))
+print(f"Datatype of {complex_input} is: {type(complex_input)}")

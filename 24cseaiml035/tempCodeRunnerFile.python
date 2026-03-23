@@ -1,0 +1,15 @@
+n = int(input("Enter number of key-value pairs: "))
+my_dict = {}
+
+for i in range(n):
+    key = int(input("Enter key (integer only): "))
+    value = int(input("Enter value (integer only): "))
+    my_dict[key] = value
+
+for key in my_dict:
+    if key % 2 != 0:   
+        my_dict[key] += 5
+    else:              
+        my_dict[key] -= 5
+
+print("Updated dictionary:", my_dict)

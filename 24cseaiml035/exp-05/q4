@@ -1,0 +1,21 @@
+
+numbers = []
+
+
+input_str = input("Enter numbers separated by commas: ")
+input_list = input_str.split(',')
+
+for num in input_list:
+    try:
+        numbers.append(int(num.strip()))
+    except ValueError:
+        print(f"Invalid number: {num.strip()}. Skipping.")
+
+unique_numbers = []
+for num in numbers:
+    if num not in unique_numbers:
+        unique_numbers.append(num)
+
+unique_numbers.sort()
+
+print("Unique numbers in ascending order:", unique_numbers)

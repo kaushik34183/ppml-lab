@@ -1,0 +1,5 @@
+sentence=input("enter a sentence:")
+sentence=sentence.strip()
+newsentence=sentence.replace("hii","hello")
+print("updated string:",newsentence)                                                                                                                                                                                                                                                                
+print("trimed string:",sentence)

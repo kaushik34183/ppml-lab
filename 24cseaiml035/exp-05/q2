@@ -1,0 +1,28 @@
+
+my_list = [1, 2, 3, 4, 5]
+print("Looping over list:")
+for item in my_list:
+    print(item)
+
+my_tuple = (10, 20, 30, 40, 50)
+print("\nLooping over tuple:")
+for item in my_tuple:
+    print(item)
+
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+print("\nLooping over dictionary keys:")
+for key in my_dict:
+    print(key)
+
+print("\nLooping over dictionary values:")
+for value in my_dict.values():
+    print(value)
+
+print("\nLooping over dictionary items:")
+for key, value in my_dict.items():
+    print(f"{key}: {value}")
+
+my_set = {100, 200, 300, 400, 500}
+print("\nLooping over set:")
+for item in my_set:
+    print(item)
